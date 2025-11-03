@@ -43,7 +43,7 @@ export default function App() {
       // setNasaRaw(nasaRawResponse);
     } catch (err) {
       console.error("LoadLive error:", err);
-      alert("https://solar-backend-0wcy.onrender.com");
+      
     } finally {
       setLoading(false);
     }
