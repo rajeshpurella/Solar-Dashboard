@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://solar-backend-0wcy.onrender.com";
 
 /** Open-Meteo via server proxy */
 export async function fetchOpenMeteo(lat = 17.4346, lon = 78.6552, past_days = 7) {
